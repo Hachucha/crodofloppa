@@ -1,0 +1,27 @@
+Методы объекта:
+Get(keyType, [keyValues])
+Delete(keyType, [keyValues])
+Update(obj)
+Create(obj)
+CreateOrUpdate(obj)
+
+CrudoFloppa(config)
+
+Config:
+tableName: название таблицы
+fields: массив названий колонок таблицы в бд
+keys: {
+    name : сolumns[]
+}
+primaryKey: 'name'
+
+Aliaces: 
+{
+ Таблица: {
+  Псевдоним столбца: настоящее имя столбцов
+  …
+ }
+ …
+}
+
+
