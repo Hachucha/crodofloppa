@@ -1,8 +1,4 @@
 export default class ConnectionManager {
-  constructor() {
-    this.users = new Map();
-  }
-
   getConnectionsByUserId(userId) : Promise<any[]>
 
   setConnectionUser(connection, userId) : Promise<any>
