@@ -3,15 +3,15 @@ export default class ConnectionManager {
     this.users = new Map();
   }
 
-  async getConnectionsByUserId(userId) : Promise<[]>
+  getConnectionsByUserId(userId) : Promise<any[]>
 
-  async setConnectionUser(connection, userId) : Promise<any>
+  setConnectionUser(connection, userId) : Promise<any>
 
   // async setConnection(connection) {
   //   this.users.set(connection, null);
   // }
 
-  async getUserByConnection(connection) : Promise<any>
+  getUserByConnection(connection) : Promise<any>
 
-  async deleteConnection(connection) : Promise<any>
+  deleteConnection(connection) : Promise<any>
 }
