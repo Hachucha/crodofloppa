@@ -3,10 +3,6 @@ export default class ConnectionManager {
 
   setConnectionUser(connection, userId) : Promise<any>
 
-  // async setConnection(connection) {
-  //   this.users.set(connection, null);
-  // }
-
   getUserByConnection(connection) : Promise<any>
 
   deleteConnection(connection) : Promise<any>
